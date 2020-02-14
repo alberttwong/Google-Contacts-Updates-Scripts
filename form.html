@@ -56,12 +56,12 @@
     <p><label class="control-label" for="inputTwitter">Twitter</label>
       <input type="text" id="inputTWITTER" class="input-small" placeholder="@username">
     </p>
-
+-->
     <p>
       <label class="control-label" for="inputDOB">Birthday</label>
       <input type="text" id="inputBIRTHDAY" class="input-small" placeholder="MM/DD/YYYY">
     </p>
--->
+
     <p>
       <label class="control-label" for="inputHomePage">Home Page</label>
       <input type="text" id="inputHOME_PAGE" class="input" value="<?= home_page ?>">
@@ -105,7 +105,7 @@
 //    contact.TWITTER      = $("input#inputTWITTER").val();
 //    contact.BLOG         = $("input#inputBLOG").val();
     contact.HOME_PAGE    = $("input#inputHOME_PAGE").val();    
-//    contact.BIRTHDAY     = $("input#inputBIRTHDAY").val();
+    contact.BIRTHDAY     = $("input#inputBIRTHDAY").val();
     contact.id           = "<?= id ?>";
 
     google.script.run.withSuccessHandler(progress).labnolUpdateContact(contact);      
