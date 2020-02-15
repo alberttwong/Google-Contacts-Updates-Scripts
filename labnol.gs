@@ -6,7 +6,9 @@ function Initialize() {
   
   var NAME  = "Albert T. Wong";           // It will show up in the signature of your outgoing emails
   //var GROUP = "Google Script Testing";     // Enter the exact name of your Google Contacts group 
-  var GROUP = "Holiday Cards";     // Enter the exact name of your Google Contacts group 
+  var GROUP = "Family";     // Enter the exact name of your Google Contacts group 
+  var FORMURL= "https://script.google.com/macros/s/AKfycbwyaRa4kP4xpcRsBl7x6YiUNUTq6mxFQtsXLcG_788Z-4XAO44/exec";
+  //var FORMURL= ScriptApp.getService().getUrl();
 
 
 
@@ -91,9 +93,10 @@ function Initialize() {
           var fName = myContacts[i].getGivenName();
           ID = ID.substr(ID.lastIndexOf("/") + 1);
           
+          
           var emailBody = "Hi " + fName + ",<br /><br />" +
             "Would you please take a moment and update your contact information in my address book. I use this information so that I can send you emails, call you and mail out holiday cards.<br /><br />" + 
-              "Please <a href='" + ScriptApp.getService().getUrl() + "?id=" + 
+              "Please <a href='" + FORMURL + "?id=" + 
                 ID + "'>click here</a> and fill-in the required details." +
                   " Your information will be directly added to my address book." +
                     "<br /><br />" +
