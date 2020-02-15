@@ -100,7 +100,7 @@ function Initialize() {
                 ID + "'>click here</a> and fill-in the required details." +
                   " Your information will be directly added to my address book." +
                     "<br /><br />" +
-                   "Also so that you don't think this is an spear phishing attack to get your info, Fumie and I have 3 kids (Logan, Greyson and Rae) and at last count, we have 3 dogs, 7 cats, 60+ fishes, 2 bearded dragons, 2 snakes and 4 tortoises.  Another way to verify this email is just to email me back."   
+                   "Also so that you don't think this is an spear phishing attack to get your info, it isn't.  Another way to verify this email is just to email me back."   
                       
                     + "<br /><br />Thanks,<br />" + NAME + "<br /><img src='https://s3-us-west-1.amazonaws.com/public.alberttwong.com/albert_wong_signature_chop.png'><br />http://alberttwong.com - +1-949-870-9664 - GPG: 9D0F 6E75 5363 0F39 F64A 447E 2A2E 6721 C637 845A";
           
